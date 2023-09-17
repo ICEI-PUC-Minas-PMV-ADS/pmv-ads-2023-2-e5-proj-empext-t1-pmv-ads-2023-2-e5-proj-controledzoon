@@ -1,23 +1,22 @@
-# TÍTULO DO PROJETO
+# Leish Software
 
-`CURSO`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` Projeto
 
-`SEMESTRE`
+`SEMESTRE` 5
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto está sendo desenvolvido com intuito de resolver um problema em relação ao armazenamendo de dados de exames de leishmaniose.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriel Judá de Oliveira
+* Paulo Victor
+* Arthur Rocha
 
 ## Orientador
 
-* Nome completo do professor 1
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 
