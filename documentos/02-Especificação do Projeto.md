@@ -1,12 +1,82 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+## Público-Alvo
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+O público-alvo do software para registro de exames de leishmaniose abrange uma variedade de profissionais e instituições envolvidos na prevenção, diagnóstico, tratamento e controle da doença. Esse público-alvo é diversificado e inclui:
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+- **Profissionais de Saúde:** Médicos, enfermeiros, técnicos de laboratório, epidemiologistas e outros profissionais de saúde que estão envolvidos na prestação de cuidados médicos, diagnóstico e tratamento de pacientes com leishmaniose.
+
+- **Laboratórios de Saúde:** Laboratórios clínicos e de pesquisa que realizam testes de diagnóstico para leishmaniose, onde os resultados dos exames são registrados e armazenados no software.
+
+- **Autoridades de Saúde Pública:** Funcionários de órgãos de saúde pública em níveis municipal, estadual e nacional, que são responsáveis pela supervisão, monitoramento e controle de doenças infecciosas, incluindo a leishmaniose.
+
+- **Pesquisadores e Acadêmicos:** Profissionais de pesquisa e acadêmicos que estudam a leishmaniose e dependem de dados epidemiológicos para suas pesquisas e estudos científicos.
+
+- **Gestores de Saúde:** Administradores e gestores de unidades de saúde, hospitais e clínicas que buscam melhorar a eficiência operacional e a qualidade dos serviços de saúde relacionados à leishmaniose.
+
+- **Organizações Não Governamentais (ONGs):** Organizações que trabalham em áreas afetadas pela leishmaniose, fornecendo apoio, conscientização e recursos para pacientes e comunidades.
+
+- **Pacientes e suas Famílias:** Embora não sejam usuários diretos do software, os pacientes e suas famílias se beneficiam indiretamente da melhoria no diagnóstico e tratamento proporcionados pela ferramenta.
+
+- **Profissionais de Educação em Saúde:** Professores e educadores em saúde que utilizam o software como uma ferramenta de ensino para conscientizar sobre a leishmaniose e suas medidas preventivas.
+
+- **Agências de Saúde Internacionais:** Organizações internacionais de saúde, como a Organização Mundial da Saúde (OMS) e outras agências que trabalham na prevenção e controle de doenças tropicais, podem usar o software para fins de monitoramento global.
+
+- **Órgãos Governamentais:** Autoridades governamentais em níveis municipal, estadual e nacional que têm responsabilidades na formulação de políticas de saúde e no financiamento de programas de controle da leishmaniose.
+
+É importante observar que o software deve ser projetado com interfaces e funcionalidades adequadas para atender às necessidades específicas de cada segmento desse público-alvo diversificado. Isso inclui considerações de usabilidade, segurança de dados e treinamento para garantir que todos os usuários possam tirar o máximo proveito da ferramenta.
+
+| Personas    | Foto  | Idade | História | Ocupação | Hobbies                                   | Impedimentos                                             | Motivações                                   | Frustrações                                  |
+|------------|-------|-------|----------|----------|-------------------------------------------|----------------------------------------------------------|----------------------------------------------|---------------------------------------------|
+| **Gabriel** | ![Gabriel](inserir_link_da_foto) | 35 anos | Gabriel é um agente que trabalha na realização de exames de leishmaniose. Trabalha no município de Igarapé-MG e atua no combate a leishmaniose e outras doenças. | Agente de Combate a Endemias | Jogar futebol e assistir filmes | Dificuldades com o lançamento das tarefas por serem manuais em papel | Encontrar uma solução mais eficiente para o lançamento dos trabalhos | Falta de método simples e eficaz de lançamento de atividades cotidianas |
+| **Rafael** | ![Rafael](inserir_link_da_foto) | 26 anos | Rafael é o médico veterinário do Departamento de Zoonoses do município de Igarapé-MG. Ele realiza atendimento a animais da cidade, realiza testes de leishmaniose e é responsável pelo setor de doenças transmitidas do animal para os seres humanos. | Médico Veterinário | Viajar, jogar futebol, ver séries | Agenda muito cheia e falta de tempo para lançar atendimentos | Melhorar a qualidade dos atendimentos e fornecer melhor qualidade | Estrutura de trabalho e condução dos atendimentos |
+| **Giovanni** | ![Giovanni](inserir_link_da_foto) | 40 anos | Giovanni é o Diretor da Zoonose, gestor dos agentes de campo e coordenador das equipes de campo. Já trabalhou como agente de campo, supervisor de campo e hoje gerencia as ações do departamento. | Diretor do Departamento de Zoonoses | Natação, exercícios físicos | Coordenação de várias pessoas e sobrecarga de trabalho | Aprender mais e ajudar seus liderados a melhorarem | Falta de tempo e sobrecarga de serviço |
+| **Aline** | ![Aline](inserir_link_da_foto) | 29 anos | Aline é secretária do Departamento de Zoonoses. Atualmente trabalha com várias demandas no setor. É responsável pelo atendimento ao público e tem a missão de fornecer insumos aos agentes de campo. | Secretária | Dançar, levar seu filho para passear | Muitas tarefas para realizar e lidar com o atendimento ao público | Prestar o melhor atendimento às pessoas | Condições para atender as pessoas |
 
 ## Arquitetura e Tecnologias
+
+A especificação de um projeto de software para registro de exames de leishmaniose é uma etapa fundamental para orientar o desenvolvimento da ferramenta. A seguir, apresento uma descrição geral das principais características e requisitos que devem ser considerados na especificação desse projeto:
+
+## Requisitos do Projeto
+
+O objetivo estrutural prático do projeto é definido através dos requisitos funcionais que retratam as intenções de comunicação do site com o usuário e disponibilizam as funções esperadas para utilização da ferramenta, tal como os requisitos não funcionais que representam as características técnicas que a equipe deve utilizar na estrutura da montagem do projeto. A seguir serão apresentados os aspectos.
+
+### Requisitos Funcionais
+
+O quadro a seguir exibe os requisitos funcionais da solução, apontando quais são as prioridades que devem ser atendidas.
+
+| ID   | Descrição                              | Prioridade |
+| ---- | -------------------------------------- | ---------- |
+| RF-01 | A aplicação deve permitir gerenciar exames de leishmaniose. | Alta       |
+| RF-02 | A aplicação deve permitir gerenciar usuários.                | Alta       |
+| RF-03 | O Sistema deve permitir o acesso a exames.                   | Alta       |
+| RF-04 | O Sistema deve permitir o cadastro de animais.               | Alta       |
+| RF-05 | O Sistema deve gerar um relatório sobre os exames.          | Baixa      |
+
+### Requisitos não funcionais
+
+O quadro a seguir representa as ferramentas técnicas que devem ser utilizadas no projeto no formato de requisitos não funcionais
+
+| ID    | Descrição                                                        | Prioridade |
+| ----- | ---------------------------------------------------------------- | ---------- |
+| RNF-01 | O sistema deve ser implementado na linguagem C#, HTML, CSS e JavaScript. | Alta       |
+| RNF-02 | As informações de cadastro dos tutores devem ficar disponíveis apenas para os clientes e para a plataforma. | Alta       |
+| RNF-03 | O site deve estar disponível para os principais navegadores: Chrome, Firefox, Edge. | Alta       |
+| RNF-04 | O sistema deve estar disponível 24 horas por dia, os sete dias da semana. | Alta       |
+| RNF-05 | O site deve ser responsivo, compatível com qualquer tipo de aparelho, como notebook, tablet e celular. | Alta       |
+
+## Restrições
+
+O andamento desse projeto limita-se por deveres visíveis para a sua conclusão. O quadro a seguir exibe quais são essas limitações.
+
+| ID   | Descrição                                                     |
+| ---- | ------------------------------------------------------------- |
+| RE-01 | O projeto deve ser entregue ao final do semestre, não ultrapassando a data limite de 10/12/2023. |
+| RE-02 | O projeto deve ser desenvolvido em HTML, CSS, JavaScript e C#. |
+| RE-03 | O projeto deve ser realizado pela equipe formada sem interferências externas. |
+
+
+
 
 o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
 
@@ -17,53 +87,7 @@ Colocar a imagem do modelo construído apresentando a proposta de solução.
 > **Links Úteis**:
 > Disponíveis em material de apoio do projeto
 
-## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
