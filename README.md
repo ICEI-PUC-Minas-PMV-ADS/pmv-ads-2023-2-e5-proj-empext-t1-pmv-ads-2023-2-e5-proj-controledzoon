@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# CONTROLE DE ZOONOSES 
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENV DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO CONTROLE DR ZOONOSES`
 
-`SEMESTRE`
+`EIXO 5`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+*  Arthur Alves Rocha de Souza
+* Gabriel Judá de Oliveira
+* Paulo Vitor Pereira Rocha
+* Thaís Rodrigues Dantas
 
 ## Orientador
 
-* Nome completo do professor 1
+* Sandra Maria Silveira
 
 ## Instruções de utilização
 
