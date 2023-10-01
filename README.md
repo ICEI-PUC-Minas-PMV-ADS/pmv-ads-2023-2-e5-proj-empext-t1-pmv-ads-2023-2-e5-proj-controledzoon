@@ -38,10 +38,9 @@ Em resumo, o software para registro de exames de leishmaniose tem como objetivo 
 
 ## Integrantes
 
-*  Arthur Alves Rocha de Souza
 * Gabriel Judá de Oliveira
 * Paulo Vitor Pereira Rocha
-* Thaís Rodrigues Dantas
+  
 
 ## Orientador
 
