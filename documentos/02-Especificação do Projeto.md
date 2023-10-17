@@ -28,70 +28,11 @@ O público-alvo do software para registro de exames de leishmaniose abrange uma 
 
 É importante observar que o software deve ser projetado com interfaces e funcionalidades adequadas para atender às necessidades específicas de cada segmento desse público-alvo diversificado. Isso inclui considerações de usabilidade, segurança de dados e treinamento para garantir que todos os usuários possam tirar o máximo proveito da ferramenta.
 
-# Personas
 
-## Gabriel, Agente de Combate a Endemias, 35 anos
 
-**História:** Gabriel é um agente que trabalha na realização de exames de leishmaniose. Trabalha no município de Igarapé-MG e atua no combate a leishmaniose e outras doenças.
 
-**Ocupação:** Agente de combate a endemias.
 
-**Hobbies:** Gosta de jogar futebol e assistir filmes.
 
-**Impedimentos:** No dia-a-dia de trabalho, tem dificuldades com o lançamento das tarefas por se tratar de lançamentos manuais em papel.
-
-**Motivações:** Gabriel está motivado em encontrar uma solução mais eficiente para o lançamento dos seus trabalhos de forma prática e objetiva.
-
-**Frustrações:** Gabriel se frustra por não existir um método mais simples e eficaz de fazer o lançamento de suas atividades cotidianas no trabalho.
-
-## Rafael, Médico Veterinário, 26 anos
-
-**História:** Rafael é o médico veterinário do Departamento de Zoonoses do município de Igarapé-MG. Ele realiza atendimento a animais da cidade, realiza testes de leishmaniose e é responsável pelo setor de doenças transmitidas do animal para os seres humanos.
-
-**Ocupação:** Médico Veterinário.
-
-**Hobbies:** Viajar, jogar futebol, ver séries.
-
-**Impedimentos:** Tem uma agenda muito cheia, faz vários atendimentos todos os dias e falta tempo para lançar alguns atendimentos.
-
-**Motivações:** Rafael está motivado a melhorar a qualidade de seus atendimentos e fornecer melhor qualidade aos usuários e seus colaboradores.
-
-**Frustrações:** Tem se frustrado com a estrutura que tem para trabalhar e com a forma que são conduzidos os atendimentos.
-
-## Giovanni, Diretor do Departamento de Zoonoses, 40 anos
-
-**História:** Giovanni é o Diretor da Zoonose, gestor dos agentes de campo e coordenador das equipes de campo. Já trabalhou como agente de campo, supervisor de campo e hoje gerencia as ações do departamento.
-
-**Ocupação:** Diretor do Departamento de Zoonoses.
-
-**Hobbies:** Natação, exercícios físicos.
-
-**Impedimentos:** Tem várias pessoas para coordenar além de outros trabalhos junto à gestão.
-
-**Motivação:** Giovanni está motivado a aprender mais e ajudar seus liderados a melhorarem.
-
-**Frustrações:** Falta de tempo e sobrecarga de serviço.
-
-## Aline, Secretária do Departamento de Zoonoses, 29 anos
-
-**História:** Aline é secretária do Departamento de Zoonoses. Atualmente trabalha com várias demandas no setor. É responsável pelo atendimento ao público e tem a missão de fornecer insumos aos agentes de campo.
-
-**Ocupação:** Secretária.
-
-**Hobbies:** Dançar, levar seu filho para passear.
-
-**Impedimentos:** Muitas tarefas para realizar, lidar com o atendimento ao público.
-
-**Motivações:** Aline é motivada a trabalhar e tem como objetivo prestar o melhor atendimento às pessoas.
-
-**Frustrações:** Queria ter melhores condições para atender as pessoas.
-
-| Persona    | Foto  | Idade | História | Ocupação | Hobbies                                   | Impedimentos                                             | Motivações                                   | Frustrações                                  |
-|------------|-------|-------|----------|----------|-------------------------------------------|----------------------------------------------------------|----------------------------------------------|---------------------------------------------|
-| **Gabriel** | ![Gabriel](inserir_link_da_foto) | 35 anos | Gabriel é um agente que trabalha na realização de exames de leishmaniose. Trabalha no município de Igarapé-MG e atua no combate a leishmaniose e outras doenças. | Agente de Combate a Endemias | Jogar futebol e assistir filmes | Dificuldades com o lançamento das tarefas por serem manuais em papel | Encontrar uma solução mais eficiente para o lançamento dos trabalhos | Falta de método simples e eficaz de lançamento de atividades cotidianas |
-| **Rafael** | ![Rafael](inserir_link_da_foto) | 26 anos | Rafael é o médico veterinário do Departamento de Zoonoses do município de Igarapé-MG. Ele realiza atendimento a animais da cidade, realiza testes de leishmaniose e é responsável pelo setor de doenças transmitidas do animal para os seres humanos. | Médico Veterinário | Viajar, jogar futebol, ver séries | Agenda muito cheia e falta de tempo para lançar atendimentos | Melhorar a qualidade dos atendimentos e fornecer melhor qualidade | Estrutura de trabalho e condução dos atendimentos |
-| **Giovanni** | ![Giovanni](inserir_link_da_foto) | 40 anos | Giovanni é o Diretor da Zoonose, gestor dos agentes de campo e coordenador das equipes de campo. Já trabalhou como agente de campo, supervisor de campo e hoje gerencia as ações do departamento. | Diretor do Departamento de Zoonoses | Natação, exercícios físicos | Coordenação de várias pessoas e sobrecarga de trabalho | Aprender mais e ajudar seus liderados a melhorarem | Falta de tempo e sobrecarga de serviço |
-| **Aline** | ![Aline](inserir_link_da_foto) | 29 anos | Aline é secretária do Departamento de Zoonoses. Atualmente trabalha com várias demandas no setor. É responsável pelo atendimento ao público e tem a missão de fornecer insumos aos agentes de campo. | Secretária | Dançar, levar seu filho para passear | Muitas tarefas para realizar e lidar com o atendimento ao público | Prestar o melhor atendimento às pessoas | Condições para atender as pessoas |
 
 
 
