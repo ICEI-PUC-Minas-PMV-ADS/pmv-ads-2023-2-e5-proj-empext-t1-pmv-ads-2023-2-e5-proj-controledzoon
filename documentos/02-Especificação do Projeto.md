@@ -42,7 +42,8 @@ o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a s
 
 ## Project Model Canvas
 
-https://next.canvanizer.com/canvas/iyLcAeebupFpa
+![model canvas Zoonoses](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/7f621574-5876-4afa-bf28-9518bf78e15e)
+
 
 
 ## Requisitos do Projeto
