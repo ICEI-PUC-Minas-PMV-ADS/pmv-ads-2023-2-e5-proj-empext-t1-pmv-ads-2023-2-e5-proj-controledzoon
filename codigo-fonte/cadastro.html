@@ -37,13 +37,13 @@
             localStorage.setItem('dados', '[]');
         }
 
-        function salvar(nome, sobrenome, email, senha, nascimento) {
+        function salvar(nome, sobrenome, email, senha, confirmar_senha) {
             let obj = {
                 nome: nome,
                 sobrenome: sobrenome,
                 email: email,
                 senha: senha,
-                nascimento: nascimento
+                confirmar_senha : confirmar_senha 
             };
             let j = JSON.parse(localStorage.dados);
             j.push(obj);
@@ -55,8 +55,8 @@
             let sobrenome = f_sobrenome.value;
             let email = f_email.value;
             let pass = f_password.value;
-            let data = inputData.value;
-            salvar(nome, sobrenome, email, pass, data);
+            let confirmar_senha = inputConfirmar.value;
+            salvar(nome, sobrenome, email, pass, confirmar_senha);
         }
 
         bt_cadastrar.onclick = function(e) {
