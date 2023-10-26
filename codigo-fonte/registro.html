@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leish Software</title>
+    <script src=""></script>
+    <link rel="stylesheet" href="/codigo-fonte/registro.css">
+    <link rel="icon" type="icon/ico" href="/codigo-fonte/img/logo.png">
+   
+ 
+</head>
+<body>
+    <div>
+                <img class="imgesquerda" src="/codigo-fonte/img/logo.png">
+                <h1      Class="container">Leish Software</h1></div>
+                <main class="main">
+                <h1>Registro de Exames</h1>
+        </div>
+        <div>
+            <form class="conte">
+                
+              <label for="name"><input class="input" autocomplete="off" type="text" id="f_name" name="name" placeholder="Nome do tutor"></label>
+
+              <label for="Nome do Animal"><input class="input" autocomplete="off" type="text" id="Nome do Animal" name="Nome do Animal" placeholder="Nome do Animal"></label>
+
+              <label  for="endereco"><input class="input"  autocomplete="off" type="endereco" id="f_endereco" name="endereco" placeholder="Endereço"></label>
+
+              <label for="cpf"><input class="input"   autocomplete="off" type="cpf" id="f_cpf" name="cpf" placeholder="CPF/RG"></label>
+
+              <label  for="telefone"><input class="input" autocomplete="off" type="telefone" id="f_telefone" name="telefone" placeholder="Telefone"></label>
+
+              <label for="sexoAnimal"><input class="input"  autocomplete="off" type="sexoAnimal" id="f_sexoAnimal" name="sexoAnimal" placeholder="sexo do animal"></label>
+
+              <label for="testeRapido"><input  class="input" autocomplete="off" type="testeRapido" id="f_testeRapido" name="testeRapido" placeholder="Teste Rápido"></label>
+
+              <label for="testeSorologico" ><input  class="input"autocomplete="off" type="testeSorologico" id="f_testeSorologico" name="testeSorologicol" placeholder="teste Sorológico"></label>
+          
+              <div>
+              <input class="cadastrar" value="Cadastrar" id="bt_cadastrar" href="C:\Users\gabri\OneDrive\Área de Trabalho\pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon\codigo-fonte\serve.js\public\pagina_inicial.html"> 
+            </div>  
+            </form>
+        </main>
+
+    <script>
+        if(localStorage.dados === undefined) {
+            localStorage.setItem('dados', '[]');
+        }
+
+        function salvar(nome, sobrenome, email, senha, confirmar_senha) {
+            let obj = {
+                nome: nome,
+                sobrenome: sobrenome,
+                email: email,
+                senha: senha,
+                confirmar_senha : confirmar_senha 
+            };
+            let j = JSON.parse(localStorage.dados);
+            j.push(obj);
+            localStorage.setItem('dados', JSON.stringify(j));
+        }
+
+        function cadastrar() {
+            let nome = f_name.value;
+            let sobrenome = f_sobrenome.value;
+            let email = f_email.value;
+            let pass = f_password.value;
+            let confirmar_senha = inputConfirmar.value;
+            salvar(nome, sobrenome, email, pass, confirmar_senha);
+        }
+
+        bt_cadastrar.onclick = function(e) {
+            if (!JSON.parse(localStorage.dados).find(user => user.email === f_email.value)) {
+                alert('Cadastrado');
+                cadastrar();
+                window.location.href = "login.html";
+            } else {
+                alert('Usuário já existe');
+            }
+        }
+    </script>
+</body>
+</html>

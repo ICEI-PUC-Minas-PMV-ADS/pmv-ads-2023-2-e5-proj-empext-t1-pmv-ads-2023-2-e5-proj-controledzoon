@@ -1,4 +1,4 @@
-import mysql from 'mysql'
+/*import mysql from 'mysql'
 
 const express = require('express')
 const mysql = require('mysql')
@@ -27,7 +27,7 @@ index.post('/cadastrar', (req, res) => {
   /*
   const inserirQuery =
     'INSERT INTO usuário (nome, email, senha, confirmar_senha)VALUES(gabriel, gabrieloliveira1@hotmail.com, 123456, 123456)'*/
-    if(!nome || !email || !senha || !confirmar_senha){
+/*if(!nome || !email || !senha || !confirmar_senha){
       return res.status(400).json({ message: 'Campos obrigatórios não preenchidos' });
     }
     res.status(201).json({ message: 'Cadastro realizado com sucesso' });
@@ -49,4 +49,4 @@ usuário.query(
 
 index.listen(port, () => {
   console.log(`Servidor Node.js rodando na porta ${port}`)
-})
+})*/

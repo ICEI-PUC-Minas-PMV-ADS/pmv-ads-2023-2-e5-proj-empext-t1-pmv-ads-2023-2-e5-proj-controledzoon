@@ -1,6 +1,7 @@
-// user.js
+// registro.js
 
-// Exporte uma função que cria e retorna o modelo de usuário
+// Exporte uma função que cria e retorna o modelo de registro
+
 const createUserModel = (sequelize, DataTypes) => {
   return sequelize.define('User', {
     nome: {
