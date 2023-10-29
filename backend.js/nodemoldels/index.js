@@ -71,10 +71,38 @@ index.post('/cadastrar', async (req, res) => {
   }
 })
 
-// Rota para verificar o login
+// Rota para verificar o login//
 
-//rota para criar o registro
+//rota para criar o registro//
 
+index.post( '/registro', async (req, res) => {
+  try {
+    const { nome_tutor, nome_animal, endereço, CPF, telefone, teste_rapido, teste_sorologico } = req.body
+
+    // Verificação se todos os campos estão preenchidos
+    if (!nome_tutor || !nome_animal || !endereço || !CPF || !telefone || !teste_rapido || !teste_sorologico) {
+      return res
+        .status(400)
+        .json({ error: 'Por favor, preencha todos os campos.' })
+    }
+// banco de dados do registro
+    const newUser = await User.create({
+      nome_tutor,
+      nome_animal,
+      endereço,
+      telefone,
+      CPF,
+      teste_rapido,
+      teste_sorologico 
+
+    })
+
+    res.status(201).json(newUser)
+  } catch (error) {
+    console.error('Erro ao cadastrar o usuário:', error)
+    res.status(500).json({ error: 'Erro ao cadastrar o usuário' })
+  }
+})
 
 index.listen(port, () => {
   console.log(`Servidor Node.js iniciado na porta ${port}`)

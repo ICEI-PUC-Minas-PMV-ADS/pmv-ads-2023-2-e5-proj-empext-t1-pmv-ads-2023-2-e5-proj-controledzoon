@@ -4,27 +4,39 @@
 
 const createUserModel = (sequelize, DataTypes) => {
   return sequelize.define('User', {
-    nome: {
+    nome_tutor: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-    sobrenome: {
+    nome_animal: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-    email: {
+    endereço: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-    senha: {
+    CPF: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-    confirmarSenha: {
+    Telefone: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
-  });
-};
+    sexo_animal: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    teste_rapido: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    teste_sorologico: {
+      type: DataTypes.STRING,
+      allowNull: false
+    }
+  })
+}
 
-export default createUserModel;
+export default createUserModel
