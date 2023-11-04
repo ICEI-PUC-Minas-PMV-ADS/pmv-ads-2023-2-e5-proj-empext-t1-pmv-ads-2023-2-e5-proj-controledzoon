@@ -84,3 +84,8 @@ O andamento desse projeto limita-se por deveres visíveis para a sua conclusão.
 | RE-01 | O projeto deve ser entregue ao final do semestre, não ultrapassando a data limite de 10/12/2023. |
 | RE-02 | O projeto deve ser desenvolvido em HTML, CSS, JAVA SCRIPT e C#. |
 | RE-03 | O projeto deve ser realizado pela equipe formada sem interferências externas. |
+
+## Diagrama de Casos de Uso
+O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
+![DIAGRAMA DE CASO DE USO ZOONESES](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/84c07c0b-5d45-4d30-8e61-7ec810d313e4)
+
