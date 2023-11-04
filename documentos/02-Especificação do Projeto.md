@@ -91,3 +91,6 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 ## Modelo ER (Projeto Conceitual)
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+
+## Projeto da Base de Dados
+O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
