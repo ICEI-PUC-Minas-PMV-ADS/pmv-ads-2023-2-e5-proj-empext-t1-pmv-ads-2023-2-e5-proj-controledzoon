@@ -89,3 +89,5 @@ O andamento desse projeto limita-se por deveres visíveis para a sua conclusão.
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
 ![DIAGRAMA DE CASO DE USO ZOONESES](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/84c07c0b-5d45-4d30-8e61-7ec810d313e4)
 
+## Modelo ER (Projeto Conceitual)
+O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
