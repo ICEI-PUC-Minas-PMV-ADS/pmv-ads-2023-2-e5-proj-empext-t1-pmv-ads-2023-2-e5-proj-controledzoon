@@ -29,13 +29,6 @@ O público-alvo do software para registro de exames de leishmaniose abrange uma 
 É importante observar que o software deve ser projetado com interfaces e funcionalidades adequadas para atender às necessidades específicas de cada segmento desse público-alvo diversificado. Isso inclui considerações de usabilidade, segurança de dados e treinamento para garantir que todos os usuários possam tirar o máximo proveito da ferramenta.
 
 
-
-
-
-
-
-
-
 ## Arquitetura e Tecnologias
 
 o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
@@ -87,13 +80,11 @@ O andamento desse projeto limita-se por deveres visíveis para a sua conclusão.
 
 ## Diagrama de Casos de Uso
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos.
-![DIAGRAMA DE CASO DE USO ZOONESES](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/84c07c0b-5d45-4d30-8e61-7ec810d313e4)
+![Diagrama de caso de uso ZOONOSES](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/81b29b23-d1ba-43a6-af5f-738ead238136)
 
 ## Modelo ER (Projeto Conceitual)
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 ![DIAGRAMA ER LEISH SOFTWARE ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-2-e5-proj-empext-t1-pmv-ads-2023-2-e5-proj-controledzoon/assets/91230711/fbb4b2c8-ec07-46da-920f-69c192e215e1)
-
-
 
 ## Projeto da Base de Dados!
 
